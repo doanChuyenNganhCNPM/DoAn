@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ADFA41B-176A-4D43-924B-EC613E390137}</ProjectGuid>
+    <ProjectGuid>{25B42874-F23C-4589-A31B-BD70DF58D74C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TestForm</RootNamespace>
-    <AssemblyName>TestForm</AssemblyName>
+    <RootNamespace>GUI_Form</RootNamespace>
+    <AssemblyName>GUI_Form</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmBanVe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmBanVe.Designer.cs">
+      <DependentUpon>frmBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatVe.Designer.cs">
+      <DependentUpon>frmDatVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhuyenMai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhuyenMai.Designer.cs">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVe.Designer.cs">
+      <DependentUpon>frmVe.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBanVe.resx">
+      <DependentUpon>frmBanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatVe.resx">
+      <DependentUpon>frmDatVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhuyenMai.resx">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVe.resx">
+      <DependentUpon>frmVe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

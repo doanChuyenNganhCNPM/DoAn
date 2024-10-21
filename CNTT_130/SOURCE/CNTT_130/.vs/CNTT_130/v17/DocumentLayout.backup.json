@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|solutionrelative:gui_form\\frmve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\gui_form\\frmkhuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|d:\\daihoc\\hk7\\doancn\\doan\\cntt_130\\source\\cntt_130\\gui_form\\frmkhuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|solutionrelative:gui_form\\frmkhuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|d:\\daihoc\\hk7\\doancn\\doan\\cntt_130\\source\\cntt_130\\gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|solutionrelative:gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|d:\\daihoc\\hk7\\doancn\\doan\\cntt_130\\source\\cntt_130\\gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|solutionrelative:gui_form\\frmdatve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\gui_form\\frmbanve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|d:\\daihoc\\hk7\\doancn\\doan\\cntt_130\\source\\cntt_130\\gui_form\\frmbanve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{25B42874-F23C-4589-A31B-BD70DF58D74C}|GUI_Form\\GUI_Form.csproj|solutionrelative:gui_form\\frmbanve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -46,7 +46,8 @@
               "RelativeToolTip": "GUI_Form\\frmDatVe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:04:33.05Z"
+              "WhenOpened": "2024-10-21T06:04:33.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +58,8 @@
               "ToolTip": "D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\GUI_Form\\frmDatVe.cs [Design]",
               "RelativeToolTip": "GUI_Form\\frmDatVe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:56:06.283Z"
+              "WhenOpened": "2024-10-21T05:56:06.283Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -68,7 +70,8 @@
               "ToolTip": "D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\GUI_Form\\frmKhuyenMai.cs [Design]",
               "RelativeToolTip": "GUI_Form\\frmKhuyenMai.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:55:56.472Z"
+              "WhenOpened": "2024-10-21T05:55:56.472Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -92,7 +95,8 @@
               "RelativeToolTip": "GUI_Form\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:17:43.28Z"
+              "WhenOpened": "2024-10-19T08:17:43.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +107,8 @@
               "ToolTip": "D:\\DaiHoc\\HK7\\DoAnCN\\DoAn\\CNTT_130\\SOURCE\\CNTT_130\\GUI_Form\\frmBanVe.cs [Design]",
               "RelativeToolTip": "GUI_Form\\frmBanVe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:17:41.43Z"
+              "WhenOpened": "2024-10-19T08:17:41.43Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

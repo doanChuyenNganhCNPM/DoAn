@@ -52,6 +52,12 @@
     <Compile Include="frmBanVe.Designer.cs">
       <DependentUpon>frmBanVe.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBaoCao_ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCao_ThongKe.Designer.cs">
+      <DependentUpon>frmBaoCao_ThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDatVe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,18 @@
     <Compile Include="frmKhuyenMai.Designer.cs">
       <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThucPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucPham.Designer.cs">
+      <DependentUpon>frmThucPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTroChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTroChoi.Designer.cs">
+      <DependentUpon>frmTroChoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +93,20 @@
     <EmbeddedResource Include="frmBanVe.resx">
       <DependentUpon>frmBanVe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCao_ThongKe.resx">
+      <DependentUpon>frmBaoCao_ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDatVe.resx">
       <DependentUpon>frmDatVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhuyenMai.resx">
       <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThucPham.resx">
+      <DependentUpon>frmThucPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTroChoi.resx">
+      <DependentUpon>frmTroChoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVe.resx">
       <DependentUpon>frmVe.cs</DependentUpon>

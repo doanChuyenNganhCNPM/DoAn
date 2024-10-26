@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace GUI_Form
 {
-    public partial class frmDatVe : Form
+    public partial class frmQLNhanVien : Form
     {
-        public frmDatVe()
+        public frmQLNhanVien()
         {
             InitializeComponent();
         }
 
-        private void frmDatVe_Load(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

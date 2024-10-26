@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace GUI_Form
 {
-    public partial class frmDatVe : Form
+    public partial class frmQLHoaDon : Form
     {
-        public frmDatVe()
+        public frmQLHoaDon()
         {
             InitializeComponent();
-        }
-
-        private void frmDatVe_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

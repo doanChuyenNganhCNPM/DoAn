@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace GUI_Form
 {
-    public partial class frmDatVe : Form
+    public partial class frmQLKhachHang : Form
     {
-        public frmDatVe()
+        public frmQLKhachHang()
         {
             InitializeComponent();
-        }
-
-        private void frmDatVe_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

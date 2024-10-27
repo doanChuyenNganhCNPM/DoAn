@@ -101,6 +101,7 @@ namespace GUI_Form
         {
             SidePanel.Height = btnQLTC.Height;
             SidePanel.Top = btnQLTC.Top;
+            ShowFormInPanel(new frmQLTroChoi());
         }
 
         private void btnQLHD_Click(object sender, EventArgs e)
@@ -114,12 +115,14 @@ namespace GUI_Form
         {
             SidePanel.Height = btnQLTP.Height;
             SidePanel.Top = btnQLTP.Top;
+            ShowFormInPanel(new frmQLThucPham());
         }
 
         private void btnBCTK_Click(object sender, EventArgs e)
         {
             SidePanel.Height = btnBCTK.Height;
             SidePanel.Top = btnBCTK.Top;
+            ShowFormInPanel(new frmBaoCaoThongKe());
         }
 
         private void btnDatVe_MouseEnter(object sender, EventArgs e)

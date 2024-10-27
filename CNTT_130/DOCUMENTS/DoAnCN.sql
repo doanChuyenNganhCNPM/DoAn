@@ -1,4 +1,4 @@
-CREATE DATABASE DoAn
+﻿CREATE DATABASE DoAn
 
 USE DoAn
 GO
@@ -59,7 +59,6 @@ CREATE TABLE [LoaiTC] (
   [MaLoai] varchar(10) PRIMARY KEY,
   [TenLoai] nvarchar(30),
   [Gia] float,
-  [GioiHanDoTuoi] int DEFAULT (0),
   [GhiChu] nvarchar(30)
 )
 GO
@@ -217,3 +216,13 @@ GO
 
 ALTER TABLE [HoaDon_ThucPham] ADD FOREIGN KEY ([MaTP]) REFERENCES [ThucPham] ([MaTP])
 GO
+
+INSERT INTO [LoaiTC] ([MaLoai], [TenLoai], [Gia], [GhiChu]) VALUES
+('TC01', N'Trò chơi điện tử', 150000, N'Trò chơi trên máy tính'),
+('TC02', N'Trò chơi ngoài trời', 50000, N'Trò chơi vận động thể chất'),
+('TC03', N'Trò chơi trí tuệ', 100000, N'Cờ vua, cờ tướng, sudoku'),
+('TC04', N'Trò chơi mô phỏng', 200000, N'Mô phỏng thực tế ảo'),
+('TC05', N'Trò chơi nhập vai', 250000, N'Nhập vai vào nhân vật');
+
+
+select * from LoaiTC

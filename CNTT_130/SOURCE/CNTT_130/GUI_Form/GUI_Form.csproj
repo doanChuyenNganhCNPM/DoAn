@@ -61,11 +61,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoAnDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmBanVe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBanVe.Designer.cs">
       <DependentUpon>frmBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaoCaoThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoThongKe.Designer.cs">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmDangNhap.cs">
       <SubType>Form</SubType>
@@ -115,6 +126,18 @@
     <Compile Include="frmQLNhanVien.Designer.cs">
       <DependentUpon>frmQLNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQLThucPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLThucPham.Designer.cs">
+      <DependentUpon>frmQLThucPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLTroChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLTroChoi.Designer.cs">
+      <DependentUpon>frmQLTroChoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTaoHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +154,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBanVe.resx">
       <DependentUpon>frmBanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCaoThongKe.resx">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDangNhap.resx">
       <DependentUpon>FrmDangNhap.cs</DependentUpon>
@@ -156,6 +182,12 @@
     <EmbeddedResource Include="frmQLNhanVien.resx">
       <DependentUpon>frmQLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQLThucPham.resx">
+      <DependentUpon>frmQLThucPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLTroChoi.resx">
+      <DependentUpon>frmQLTroChoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTaoHoaDon.resx">
       <DependentUpon>frmTaoHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +199,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="DoAnDataSet.xsc">
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DoAnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DoAnDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DoAnDataSet.xss">
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -247,6 +290,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\giaodien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

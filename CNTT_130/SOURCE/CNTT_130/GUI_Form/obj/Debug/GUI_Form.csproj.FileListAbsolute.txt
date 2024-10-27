@@ -18,3 +18,6 @@ D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmMain.resour
 D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmQLHoaDon.resources
 D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmQLLoaiTroChoi.resources
 D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmTaoHoaDon.resources
+D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmBaoCaoThongKe.resources
+D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmQLThucPham.resources
+D:\DATN\DoAn\CNTT_130\SOURCE\CNTT_130\GUI_Form\obj\Debug\GUI_Form.frmQLTroChoi.resources

@@ -16,5 +16,10 @@ namespace GUI_Form
         {
             InitializeComponent();
         }
+
+        private void frmDatVe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

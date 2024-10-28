@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,11 +61,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoAnDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmBanVe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBanVe.Designer.cs">
       <DependentUpon>frmBanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaoCaoThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoThongKe.Designer.cs">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDangNhap.Designer.cs">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDatVe.cs">
       <SubType>Form</SubType>
@@ -64,6 +96,54 @@
     <Compile Include="frmKhuyenMai.Designer.cs">
       <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLHoaDon.Designer.cs">
+      <DependentUpon>frmQLHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLKhachHang.Designer.cs">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLLoaiTroChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLLoaiTroChoi.Designer.cs">
+      <DependentUpon>frmQLLoaiTroChoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLNhanVien.Designer.cs">
+      <DependentUpon>frmQLNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLThucPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLThucPham.Designer.cs">
+      <DependentUpon>frmQLThucPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLTroChoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLTroChoi.Designer.cs">
+      <DependentUpon>frmQLTroChoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaoHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaoHoaDon.Designer.cs">
+      <DependentUpon>frmTaoHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,28 +155,70 @@
     <EmbeddedResource Include="frmBanVe.resx">
       <DependentUpon>frmBanVe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCaoThongKe.resx">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDatVe.resx">
       <DependentUpon>frmDatVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhuyenMai.resx">
       <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLHoaDon.resx">
+      <DependentUpon>frmQLHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLKhachHang.resx">
+      <DependentUpon>frmQLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLLoaiTroChoi.resx">
+      <DependentUpon>frmQLLoaiTroChoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLNhanVien.resx">
+      <DependentUpon>frmQLNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLThucPham.resx">
+      <DependentUpon>frmQLThucPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLTroChoi.resx">
+      <DependentUpon>frmQLTroChoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaoHoaDon.resx">
+      <DependentUpon>frmTaoHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmVe.resx">
       <DependentUpon>frmVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <None Include="DoAnDataSet.xsc">
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DoAnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DoAnDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DoAnDataSet.xss">
+      <DependentUpon>DoAnDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -105,6 +227,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lưuf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sửa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\them.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timkiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xóa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuất.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xuatfile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lienket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hủy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ve_xoanen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Đăng xuất.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giaodien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

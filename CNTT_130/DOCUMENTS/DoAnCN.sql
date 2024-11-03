@@ -219,40 +219,40 @@ GO
 
 -- Bảng LoaiVe
 INSERT INTO LoaiVe (MaLoai, TenLoai, GiaTien) VALUES
-('LV01', 'Vé vào cổng', 100000),
-('LV02', 'Vé trò chơi', 50000);
+('LV01', N'Vé vào cổng', 100000),
+('LV02', N'Vé trò chơi', 50000);
 
 -- Bảng LoaiNV
 INSERT INTO LoaiNV (MaLoai, ChucVu, HeSoLuong, LuongCB) VALUES
-('LN01', 'Nhân viên', 1.5, 5000000),
-('LN02', 'Quản lý', 2.0, 8000000),
-('LN03', 'Giám đốc', 3.0, 15000000),
-('LN04', 'Thực tập sinh', 1.0, 3000000),
-('LN05', 'Bảo vệ', 1.2, 4000000);
+('LN01', N'Nhân viên', 1.5, 5000000),
+('LN02', N'Quản lý', 2.0, 8000000),
+('LN03', N'Giám đốc', 3.0, 15000000),
+('LN04', N'Thực tập sinh', 1.0, 3000000),
+('LN05', N'Bảo vệ', 1.2, 4000000);
 
 -- Bảng NhanVien
 INSERT INTO NhanVien (MaNV, TenNV, GioiTinh, NgaySinh, CCCD, LoaiNV) VALUES
-('NV01', 'Nguyen Van A', 'Nam', '1990-05-10', '012345678901', 'LN01'),
-('NV02', 'Le Thi B', 'Nữ', '1992-06-15', '012345678902', 'LN02'),
-('NV03', 'Tran Van C', 'Nam', '1985-09-20', '012345678903', 'LN01'),
-('NV04', 'Pham Thi D', 'Nữ', '1991-12-25', '012345678904', 'LN02'),
-('NV05', 'Hoang Van E', 'Nam', '1993-03-30', '012345678905', 'LN01');
+('NV01', N'Nguyen Van A', N'Nam', '1990-05-10', '012345678901', 'LN01'),
+('NV02', N'Le Thi B', N'Nữ', '1992-06-15', '012345678902', 'LN02'),
+('NV03', N'Tran Van C', N'Nam', '1985-09-20', '012345678903', 'LN01'),
+('NV04', N'Pham Thi D', N'Nữ', '1991-12-25', '012345678904', 'LN02'),
+('NV05', N'Hoang Van E', N'Nam', '1993-03-30', '012345678905', 'LN01');
 
 -- Bảng LoaiTC
 INSERT INTO LoaiTC (MaLoai, TenLoai, Gia, GioiHanDoTuoi, GhiChu) VALUES
-('LTC01', 'Xoay vòng', 20000, 12, 'Vui chơi nhẹ nhàng'),
-('LTC02', 'Mạo hiểm', 50000, 18, 'Yêu cầu sức khỏe tốt'),
-('LTC03', 'Bắn cung', 30000, 16, 'Tập trung cao độ'),
-('LTC04', 'Xe lửa', 40000, 10, 'Thích hợp cho gia đình'),
-('LTC05', 'Cầu trượt', 15000, 6, 'Trẻ em yêu thích');
+('LTC01', N'Xoay vòng', 20000, 12, N'Vui chơi nhẹ nhàng'),
+('LTC02', N'Mạo hiểm', 50000, 18, N'Yêu cầu sức khỏe tốt'),
+('LTC03', N'Bắn cung', 30000, 16, N'Tập trung cao độ'),
+('LTC04', N'Xe lửa', 40000, 10, N'Thích hợp cho gia đình'),
+('LTC05', N'Cầu trượt', 15000, 6, N'Trẻ em yêu thích');
 
 -- Bảng TroChoi
 INSERT INTO TroChoi (MaTC, TenTC, DiaDiem, LoaiTroChoi, NgayBatDau, NgayKetThuc, TinhTrang) VALUES
-('TC01', 'Trò chơi Xoay vòng', 'Khu vực A', 'LTC01', '2024-01-01', '2024-12-31', 'Hoạt động'),
-('TC02', 'Trò chơi Mạo hiểm', 'Khu vực B', 'LTC02', '2024-02-01', '2024-11-30', 'Bảo trì'),
-('TC03', 'Trò chơi Bắn cung', 'Khu vực C', 'LTC03', '2024-03-01', '2024-12-31', 'Hoạt động'),
-('TC04', 'Trò chơi Xe lửa', 'Khu vực D', 'LTC04', '2024-01-01', '2024-12-31', 'Hoạt động'),
-('TC05', 'Trò chơi Cầu trượt', 'Khu vực E', 'LTC05', '2024-04-01', '2024-12-31', 'Bảo trì');
+('TC01', N'Trò chơi Xoay vòng', N'Khu vực A', 'LTC01', '2024-01-01', '2024-12-31', N'Hoạt động'),
+('TC02', N'Trò chơi Mạo hiểm', N'Khu vực B', 'LTC02', '2024-02-01', '2024-11-30', N'Bảo trì'),
+('TC03', N'Trò chơi Bắn cung', N'Khu vực C', 'LTC03', '2024-03-01', '2024-12-31', N'Hoạt động'),
+('TC04', N'Trò chơi Xe lửa', N'Khu vực D', 'LTC04', '2024-01-01', '2024-12-31', N'Hoạt động'),
+('TC05', N'Trò chơi Cầu trượt', N'Khu vực E', 'LTC05', '2024-04-01', '2024-12-31', N'Bảo trì');
 
 -- Bảng LichLamViec
 INSERT INTO LichLamViec (MaLich, NgayLam, Thu, Ca, ThoiGianLam) VALUES
@@ -272,35 +272,35 @@ INSERT INTO TKB (MaLich, MaNV, ChamCong) VALUES
 
 -- Bảng ThucPham
 INSERT INTO ThucPham (MaTP, TenTP, MoTa, GiaBan, SoLuong, TinhTrang) VALUES
-('TP01', 'Bánh mì', 'Bánh mì kẹp thịt', 15000, 100, 'Còn hàng'),
-('TP02', 'Nước ngọt', 'Nước ngọt có ga', 10000, 200, 'Còn hàng'),
-('TP03', 'Bánh quy', 'Bánh quy bơ', 25000, 150, 'Còn hàng'),
-('TP04', 'Kẹo', 'Kẹo socola', 5000, 300, 'Còn hàng'),
-('TP05', 'Trái cây', 'Trái cây tươi', 30000, 50, 'Hết hàng');
+('TP01', N'Bánh mì', N'Bánh mì kẹp thịt', 15000, 100, N'Còn hàng'),
+('TP02', N'Nước ngọt', N'Nước ngọt có ga', 10000, 200, N'Còn hàng'),
+('TP03', N'Bánh quy', N'Bánh quy bơ', 25000, 150, N'Còn hàng'),
+('TP04', N'Kẹo', N'Kẹo socola', 5000, 300, N'Còn hàng'),
+('TP05', N'Trái cây', N'Trái cây tươi', 30000, 50, N'Hết hàng');
 
 -- Bảng LoaiKH
 INSERT INTO LoaiKH (MaLoai, TenLoai, SoTienCanThangLoai) VALUES
-('LKH01', 'Khách hàng thường', 500000),
-('LKH02', 'Khách hàng VIP', 1000000),
-('LKH03', 'Khách hàng siêu VIP', 2000000),
-('LKH04', 'Khách hàng mới', 0),
-('LKH05', 'Khách hàng trung thành', 1500000);
+('LKH01', N'Khách hàng thường', 500000),
+('LKH02', N'Khách hàng VIP', 1000000),
+('LKH03', N'Khách hàng siêu VIP', 2000000),
+('LKH04', N'Khách hàng mới', 0),
+('LKH05', N'Khách hàng trung thành', 1500000);
 
 -- Bảng KhachHang
 INSERT INTO KhachHang (MaKH, HoTen, NgaySinh, CCCD, LoaiKH) VALUES
-('KH01', 'Nguyen Thi A', '1980-05-10', '123456789012', 'LKH01'),
-('KH02', 'Tran Van B', '1990-06-20', '123456789013', 'LKH02'),
-('KH03', 'Le Thi C', '2000-07-30', '123456789014', 'LKH01'),
-('KH04', 'Pham Van D', '1985-08-25', '123456789015', 'LKH03'),
-('KH05', 'Hoang Thi E', '1995-09-15', '123456789016', 'LKH02');
+('KH01', N'Nguyen Thi A', '1980-05-10', '123456789012', 'LKH01'),
+('KH02', N'Tran Van B', '1990-06-20', '123456789013', 'LKH02'),
+('KH03', N'Le Thi C', '2000-07-30', '123456789014', 'LKH01'),
+('KH04', N'Pham Van D', '1985-08-25', '123456789015', 'LKH03'),
+('KH05', N'Hoang Thi E', '1995-09-15', '123456789016', 'LKH02');
 
 -- Bảng KhuyenMai
 INSERT INTO KhuyenMai (MaKM, TenKM, NgayBatDau, NgayKetThuc, PhanTramGiam, TinhTrang, MoTa) VALUES
-('KM01', 'Giảm giá mùa hè', '2024-06-01', '2024-08-31', 10, 'Đang áp dụng', 'Giảm giá 10% cho tất cả dịch vụ'),
-('KM02', 'Khuyến mãi Tết', '2024-01-20', '2024-02-10', 20, 'Hết hạn', 'Giảm giá 20% cho vé Tết'),
-('KM03', 'Black Friday', '2024-11-25', '2024-11-30', 50, 'Đang áp dụng', 'Giảm giá 50% cho tất cả mặt hàng'),
-('KM04', 'Giảm giá mùa thu', '2024-09-01', '2024-11-30', 15, 'Đang áp dụng', 'Giảm giá 15% cho trò chơi và thực phẩm'),
-('KM05', 'Khuyến mãi Giáng sinh', '2024-12-20', '2024-12-31', 25, 'Sắp diễn ra', 'Giảm giá 25% cho các dịch vụ trong dịp Giáng sinh');
+('KM01', N'Giảm giá mùa hè', '2024-06-01', '2024-08-31', 10, N'Đang áp dụng', N'Giảm giá 10% cho tất cả dịch vụ'),
+('KM02', N'Khuyến mãi Tết', '2024-01-20', '2024-02-10', 20, N'Hết hạn', N'Giảm giá 20% cho vé Tết'),
+('KM03', N'Black Friday', '2024-11-25', '2024-11-30', 50, N'Đang áp dụng', N'Giảm giá 50% cho tất cả mặt hàng'),
+('KM04', N'Giảm giá mùa thu', '2024-09-01', '2024-11-30', 15, N'Đang áp dụng', N'Giảm giá 15% cho trò chơi và thực phẩm'),
+('KM05', N'Khuyến mãi Giáng sinh', '2024-12-20', '2024-12-31', 25, N'Sắp diễn ra', N'Giảm giá 25% cho các dịch vụ trong dịp Giáng sinh');
 
 -- Bảng HoaDon
 INSERT INTO HoaDon (MaHD, MaKH, MaKM, NgayIn, TongTien) VALUES
@@ -312,19 +312,19 @@ INSERT INTO HoaDon (MaHD, MaKH, MaKM, NgayIn, TongTien) VALUES
 
 -- Bảng Ve
 INSERT INTO Ve (MaVe, LoaiVe, ThoiGianBan, ThoiGianBatDau, ThoiGianHetHan, SoLuong, TinhTrang, SoNguoiLon, SoTreEm, TroChoi) VALUES
-('VE01', 'LV01', '2024-11-01', '2024-11-01', '2024-11-01', 1, 'Mới', 2, 1, NULL),
-('VE02', 'LV01', '2024-10-15', '2024-10-15', '2024-11-15', 1, 'Đã sử dụng', 1, 0, NULL),
-('VE03', 'LV02', '2024-09-10', '2024-09-10', '2025-09-10', 1, 'Hết hạn', 2, 2, 'TC01'),
-('VE04', 'LV02', '2024-10-01', '2024-10-01', '2024-12-31', 1, 'Đã sử dụng', 3, 1, 'TC02'),
-('VE05', 'LV02', '2024-08-01', '2024-08-01', '2024-08-30', 1, 'Hết hạn', 1, 1, 'TC03');
+('VE01', 'LV01', '2024-11-01', '2024-11-01', '2024-11-01', 1, N'Mới', 2, 1, NULL),
+('VE02', 'LV01', '2024-10-15', '2024-10-15', '2024-11-15', 1, N'Đã sử dụng', 1, 0, NULL),
+('VE03', 'LV02', '2024-09-10', '2024-09-10', '2025-09-10', 1, N'Hết hạn', 2, 2, 'TC01'),
+('VE04', 'LV02', '2024-10-01', '2024-10-01', '2024-12-31', 1, N'Đã sử dụng', 3, 1, 'TC02'),
+('VE05', 'LV02', '2024-08-01', '2024-08-01', '2024-08-30', 1, N'Hết hạn', 1, 1, 'TC03');
 
 -- Bảng HoaDon_Ve
 INSERT INTO HoaDon_Ve (MaCTHD, MaHD, MaNV, MaVe, SoLuongVe, TinhTrang, ThanhTien) VALUES
-('CTHD01', 'HD01', 'NV01', 'VE01', 2, 'Đã thanh toán', 200000),
-('CTHD02', 'HD02', 'NV02', 'VE02', 1, 'Chưa thanh toán', 100000),
-('CTHD03', 'HD03', 'NV03', 'VE03', 4, 'Đã thanh toán', 400000),
-('CTHD04', 'HD04', 'NV04', 'VE04', 1, 'Đã thanh toán', 500000),
-('CTHD05', 'HD05', 'NV05', 'VE05', 3, 'Chưa thanh toán', 240000);
+('CTHD01', 'HD01', 'NV01', 'VE01', 2, N'Đã thanh toán', 200000),
+('CTHD02', 'HD02', 'NV02', 'VE02', 1, N'Chưa thanh toán', 100000),
+('CTHD03', 'HD03', 'NV03', 'VE03', 4, N'Đã thanh toán', 400000),
+('CTHD04', 'HD04', 'NV04', 'VE04', 1, N'Đã thanh toán', 500000),
+('CTHD05', 'HD05', 'NV05', 'VE05', 3, N'Chưa thanh toán', 240000);
 
 -- Bảng Ve_TP
 INSERT INTO Ve_TP (MaCTHD, MaTP, SoLuong, DonGia, ThanhTien) VALUES
@@ -336,8 +336,8 @@ INSERT INTO Ve_TP (MaCTHD, MaTP, SoLuong, DonGia, ThanhTien) VALUES
 
 -- Bảng HoaDon_ThucPham
 INSERT INTO HoaDon_ThucPham (MaHD, MaTP, SoLuong, ThanhTien, TinhTrang) VALUES
-('HD01', 'TP01', 3, 45000, 'Đã thanh toán'),
-('HD02', 'TP02', 2, 20000, 'Chưa thanh toán'),
-('HD03', 'TP03', 1, 25000, 'Đã thanh toán'),
-('HD04', 'TP04', 5, 25000, 'Chưa thanh toán'),
-('HD05', 'TP05', 4, 120000, 'Đã thanh toán');
+('HD01', 'TP01', 3, 45000, N'Đã thanh toán'),
+('HD02', 'TP02', 2, 20000, N'Chưa thanh toán'),
+('HD03', 'TP03', 1, 25000, N'Đã thanh toán'),
+('HD04', 'TP04', 5, 25000, N'Chưa thanh toán'),
+('HD05', 'TP05', 4, 120000, N'Đã thanh toán');

@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BLL_DAL
+namespace DTO
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
@@ -75,16 +75,16 @@ namespace BLL_DAL
     partial void InsertThucPham(ThucPham instance);
     partial void UpdateThucPham(ThucPham instance);
     partial void DeleteThucPham(ThucPham instance);
-    partial void InsertTroChoi(TroChoi_BLL instance);
-    partial void UpdateTroChoi(TroChoi_BLL instance);
-    partial void DeleteTroChoi(TroChoi_BLL instance);
+    partial void InsertTroChoi(TroChoi instance);
+    partial void UpdateTroChoi(TroChoi instance);
+    partial void DeleteTroChoi(TroChoi instance);
     partial void InsertVe(Ve instance);
     partial void UpdateVe(Ve instance);
     partial void DeleteVe(Ve instance);
     #endregion
 		
 		public KVCDataContext() : 
-				base(global::BLL_DAL.Properties.Settings.Default.DoAnConnectionString, mappingSource)
+				base(global::DTO.Properties.Settings.Default.DoAnConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -233,11 +233,11 @@ namespace BLL_DAL
 			}
 		}
 		
-		public System.Data.Linq.Table<TroChoi_BLL> TroChois
+		public System.Data.Linq.Table<TroChoi> TroChois
 		{
 			get
 			{
-				return this.GetTable<TroChoi_BLL>();
+				return this.GetTable<TroChoi>();
 			}
 		}
 		
@@ -2547,7 +2547,7 @@ namespace BLL_DAL
 		
 		private string _GhiChu;
 		
-		private EntitySet<TroChoi_BLL> _TroChois;
+		private EntitySet<TroChoi> _TroChois;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2567,7 +2567,7 @@ namespace BLL_DAL
 		
 		public LoaiTC()
 		{
-			this._TroChois = new EntitySet<TroChoi_BLL>(new Action<TroChoi_BLL>(this.attach_TroChois), new Action<TroChoi_BLL>(this.detach_TroChois));
+			this._TroChois = new EntitySet<TroChoi>(new Action<TroChoi>(this.attach_TroChois), new Action<TroChoi>(this.detach_TroChois));
 			OnCreated();
 		}
 		
@@ -2672,7 +2672,7 @@ namespace BLL_DAL
 		}
 		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="LoaiTC_TroChoi", Storage="_TroChois", ThisKey="MaLoai", OtherKey="LoaiTroChoi")]
-		public EntitySet<TroChoi_BLL> TroChois
+		public EntitySet<TroChoi> TroChois
 		{
 			get
 			{
@@ -2704,13 +2704,13 @@ namespace BLL_DAL
 			}
 		}
 		
-		private void attach_TroChois(TroChoi_BLL entity)
+		private void attach_TroChois(TroChoi entity)
 		{
 			this.SendPropertyChanging();
 			entity.LoaiTC = this;
 		}
 		
-		private void detach_TroChois(TroChoi_BLL entity)
+		private void detach_TroChois(TroChoi entity)
 		{
 			this.SendPropertyChanging();
 			entity.LoaiTC = null;
@@ -3768,7 +3768,7 @@ namespace BLL_DAL
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TroChoi")]
-	public partial class TroChoi_BLL : INotifyPropertyChanging, INotifyPropertyChanged
+	public partial class TroChoi : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -3811,7 +3811,7 @@ namespace BLL_DAL
     partial void OnTinhTrangChanged();
     #endregion
 		
-		public TroChoi_BLL()
+		public TroChoi()
 		{
 			this._Ves = new EntitySet<Ve>(new Action<Ve>(this.attach_Ves), new Action<Ve>(this.detach_Ves));
 			this._LoaiTC = default(EntityRef<LoaiTC>);
@@ -4072,7 +4072,7 @@ namespace BLL_DAL
 		
 		private EntityRef<LoaiVe> _LoaiVe1;
 		
-		private EntityRef<TroChoi_BLL> _TroChoi1;
+		private EntityRef<TroChoi> _TroChoi1;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -4104,7 +4104,7 @@ namespace BLL_DAL
 		{
 			this._HoaDon_Ves = new EntitySet<HoaDon_Ve>(new Action<HoaDon_Ve>(this.attach_HoaDon_Ves), new Action<HoaDon_Ve>(this.detach_HoaDon_Ves));
 			this._LoaiVe1 = default(EntityRef<LoaiVe>);
-			this._TroChoi1 = default(EntityRef<TroChoi_BLL>);
+			this._TroChoi1 = default(EntityRef<TroChoi>);
 			OnCreated();
 		}
 		
@@ -4364,7 +4364,7 @@ namespace BLL_DAL
 		}
 		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="TroChoi_Ve", Storage="_TroChoi1", ThisKey="TroChoi", OtherKey="MaTC", IsForeignKey=true)]
-		public TroChoi_BLL TroChoi1
+		public TroChoi TroChoi1
 		{
 			get
 			{
@@ -4372,7 +4372,7 @@ namespace BLL_DAL
 			}
 			set
 			{
-				TroChoi_BLL previousValue = this._TroChoi1.Entity;
+				TroChoi previousValue = this._TroChoi1.Entity;
 				if (((previousValue != value) 
 							|| (this._TroChoi1.HasLoadedOrAssignedValue == false)))
 				{

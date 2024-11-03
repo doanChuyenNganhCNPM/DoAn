@@ -1,0 +1,7 @@
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\bin\Debug\DTO.dll.config
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\bin\Debug\DTO.dll
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\bin\Debug\DTO.pdb
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\obj\Debug\DTO.dll
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\DTO\obj\Debug\DTO.pdb

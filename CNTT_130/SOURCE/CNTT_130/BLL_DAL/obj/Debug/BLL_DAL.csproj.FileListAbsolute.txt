@@ -1,0 +1,7 @@
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\bin\Debug\BLL_DAL.dll.config
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\bin\Debug\BLL_DAL.dll
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\bin\Debug\BLL_DAL.pdb
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\obj\Debug\BLL_DAL.csproj.AssemblyReference.cache
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\obj\Debug\BLL_DAL.csproj.CoreCompileInputs.cache
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\obj\Debug\BLL_DAL.dll
+D:\DaiHoc\HK7\DoAnCN\DoAn\CNTT_130\SOURCE\CNTT_130\BLL_DAL\obj\Debug\BLL_DAL.pdb

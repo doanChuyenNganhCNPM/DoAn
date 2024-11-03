@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.25, 14.625" name="KVC">
+  <DataContextMoniker Name="/KVCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5aaa0c31-d420-49af-9118-45992fe9c241" absoluteBounds="6.25, 4, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/KVCDataContext/HoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52a6939e-3b21-4c45-9327-ffe4b6517ee3" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" absoluteBounds="11.75, 1, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/KVCDataContext/Ve_TP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1815ceb3-91a4-4495-85ee-7dd6d7f5c50e" absoluteBounds="11.765, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="37cb5ba2-52a2-472d-b6fd-a940a8d6399f" absoluteBounds="9, 4, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/KVCDataContext/HoaDon_ThucPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79e1df67-7b96-4841-84a2-adf84fed2943" absoluteBounds="9.015, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" absoluteBounds="9, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KVCDataContext/HoaDon_Ve" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dab99127-26bc-4bdf-ba72-f3cec548c1f3" absoluteBounds="9.015, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b935fac-ad23-4bd2-9802-6e6cdd3e615c" absoluteBounds="3.5, 4, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/KVCDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bb04454-6cea-40ab-b3d8-1cecd5f9b0b1" absoluteBounds="3.515, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fca0b315-7af5-4dc6-a644-15541e3b7bfa" absoluteBounds="3.5, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KVCDataContext/KhuyenMai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3363e4c0-fd95-42ec-b156-0199025bbd12" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa1647bf-db69-4e0a-8add-a9a3a7acad88" absoluteBounds="9.25, 12.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/KVCDataContext/LichLamViec" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c99cc5d5-5b7a-43e9-bffa-02a3c3c1640e" absoluteBounds="9.265, 13.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5e87b7c-e396-4a8f-9a66-b1ec29b46121" absoluteBounds="0.75, 4.125, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/KVCDataContext/LoaiKH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa322844-82e0-4c59-9fad-4bbbeb04fed0" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abfcedd6-0523-4425-9f32-ac17d55e92d9" absoluteBounds="3.5, 6.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KVCDataContext/LoaiNV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd48a808-c286-4e81-bb40-42460a3f4f70" absoluteBounds="3.515, 7.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68eb3115-b055-4bcd-b1e3-519d61cf085d" absoluteBounds="0.75, 11.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/KVCDataContext/LoaiTC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e08b167-8782-4dca-9185-0d4d4b38599c" absoluteBounds="0.765, 12.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5d0370e5-c999-4047-a9da-cf2149c5cf2b" absoluteBounds="3.5, 9.25, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/KVCDataContext/LoaiVe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d335aef-299f-4a17-b072-4e6924730113" absoluteBounds="3.515, 9.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e22d2a0-c11f-491c-a39e-d1ae5750e6ea" absoluteBounds="6.25, 6.5, 2, 1.9631982421875014">
+      <DataClassMoniker Name="/KVCDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ab5bded-7c81-4622-867e-f09390458223" absoluteBounds="6.265, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f9e304c3-161a-4a2c-8ed1-7b332855d511" absoluteBounds="9, 9.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KVCDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f75a302f-895d-49d0-8936-47035a1a7da7" absoluteBounds="9.015, 10.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee263688-32a0-490f-890f-33719c3dd5b9" absoluteBounds="12, 6.875, 2, 1.3862939453125014">
+      <DataClassMoniker Name="/KVCDataContext/TKB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f0475bf-2f96-48e0-aad0-cf9bb0542c9c" absoluteBounds="12.015, 7.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65b5dda8-304f-4ffa-a9c3-1d04625dc5f5" absoluteBounds="9, 6.5, 2, 1.9631982421875014">
+      <DataClassMoniker Name="/KVCDataContext/ThucPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1a91e12-64dd-40f1-82ff-fe554e39b620" absoluteBounds="9.015, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c028a5b1-df2d-4084-8a9c-db4928f090d3" absoluteBounds="3.5, 11.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KVCDataContext/TroChoi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9d31f24-8074-467c-ae20-81de5ecc3066" absoluteBounds="3.515, 11.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f6f61d0-05b3-4e6e-b8f3-180b8f19babf" absoluteBounds="6.25, 10, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/KVCDataContext/Ve" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fd15fc0-e8c7-4666-a983-772822c195cf" absoluteBounds="6.265, 10.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 4.88544840494792); (8.54166666666667 : 4.88544840494792 : JumpStart); (8.70833333333333 : 4.88544840494792 : JumpEnd); (8.72916666666667 : 4.88544840494792 : JumpStart); (8.89583333333333 : 4.88544840494792 : JumpEnd); (9 : 4.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon/HoaDon_HoaDon_ThucPham" />
+      <nodes>
+        <classShapeMoniker Id="5aaa0c31-d420-49af-9118-45992fe9c241" />
+        <classShapeMoniker Id="37cb5ba2-52a2-472d-b6fd-a940a8d6399f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 1.88544840494792); (11.75 : 1.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon_Ve/HoaDon_Ve_Ve_TP" />
+      <nodes>
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+        <classShapeMoniker Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 1.38022420247396); (11.75 : 1.38022420247396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon_Ve/HoaDon_Ve_Ve_TP1" />
+      <nodes>
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+        <classShapeMoniker Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 2.39067260742187); (11.75 : 2.39067260742187)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon_Ve/HoaDon_Ve_Ve_TP2" />
+      <nodes>
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+        <classShapeMoniker Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 2.1380605061849); (11.75 : 2.1380605061849)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon_Ve/HoaDon_Ve_Ve_TP3" />
+      <nodes>
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+        <classShapeMoniker Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 4); (7.25 : 1.82774983723958); (8.72916666666667 : 1.82774983723958 : JumpStart); (8.89583333333333 : 1.82774983723958 : JumpEnd); (9 : 1.82774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/HoaDon/HoaDon_HoaDon_Ve" />
+      <nodes>
+        <classShapeMoniker Id="5aaa0c31-d420-49af-9118-45992fe9c241" />
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.88544840494792); (6.25 : 4.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/KhachHang/KhachHang_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="8b935fac-ad23-4bd2-9802-6e6cdd3e615c" />
+        <classShapeMoniker Id="5aaa0c31-d420-49af-9118-45992fe9c241" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.36662475585937); (6.7187475 : 2.36662475585937); (6.7187475 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/KhuyenMai/KhuyenMai_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="fca0b315-7af5-4dc6-a644-15541e3b7bfa" />
+        <classShapeMoniker Id="5aaa0c31-d420-49af-9118-45992fe9c241" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.81814697265625); (3.5 : 4.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/LoaiKH/LoaiKH_KhachHang" />
+      <nodes>
+        <classShapeMoniker Id="c5e87b7c-e396-4a8f-9a66-b1ec29b46121" />
+        <classShapeMoniker Id="8b935fac-ad23-4bd2-9802-6e6cdd3e615c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 6.5); (8.625 : 6.125); (8.625 : 2.39787675585937); (8.72916666666667 : 2.39787675585937 : JumpStart); (8.89583333333333 : 2.39787675585937 : JumpEnd); (9 : 2.39787675585937)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/NhanVien/NhanVien_HoaDon_Ve" />
+      <nodes>
+        <classShapeMoniker Id="0e22d2a0-c11f-491c-a39e-d1ae5750e6ea" />
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.53929768880208); (6.25 : 7.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/LoaiNV/LoaiNV_NhanVien" />
+      <nodes>
+        <classShapeMoniker Id="abfcedd6-0523-4425-9f32-ac17d55e92d9" />
+        <classShapeMoniker Id="0e22d2a0-c11f-491c-a39e-d1ae5750e6ea" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 8.4631982421875); (8.625 : 8.8381982421875); (8.625 : 10.6642976888021); (9 : 10.6642976888021)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/NhanVien/NhanVien_TaiKhoan" />
+      <nodes>
+        <classShapeMoniker Id="0e22d2a0-c11f-491c-a39e-d1ae5750e6ea" />
+        <classShapeMoniker Id="f9e304c3-161a-4a2c-8ed1-7b332855d511" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 13.5104484049479); (13 : 13.5104484049479); (13 : 8.2612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/LichLamViec/LichLamViec_TKB" />
+      <nodes>
+        <classShapeMoniker Id="fa1647bf-db69-4e0a-8add-a9a3a7acad88" />
+        <classShapeMoniker Id="ee263688-32a0-490f-890f-33719c3dd5b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.218748 : 8.4631982421875); (7.218748 : 8.7131982421875); (8.41666666666667 : 8.7131982421875 : JumpStart); (8.58333333333333 : 8.7131982421875 : JumpEnd); (8.72916666666667 : 8.7131982421875 : JumpStart); (8.89583333333333 : 8.7131982421875 : JumpEnd); (11.625 : 8.7131982421875); (11.625 : 7.56814697265625); (12 : 7.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/NhanVien/NhanVien_TKB" />
+      <nodes>
+        <classShapeMoniker Id="0e22d2a0-c11f-491c-a39e-d1ae5750e6ea" />
+        <classShapeMoniker Id="ee263688-32a0-490f-890f-33719c3dd5b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 6.65625); (11.84375 : 6.65625); (11.84375 : 2.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/ThucPham/ThucPham_Ve_TP" />
+      <nodes>
+        <classShapeMoniker Id="65b5dda8-304f-4ffa-a9c3-1d04625dc5f5" />
+        <classShapeMoniker Id="fee4f05b-9716-4b5d-bd88-36b4f3db0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 6.5); (10 : 5.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/ThucPham/ThucPham_HoaDon_ThucPham" />
+      <nodes>
+        <classShapeMoniker Id="65b5dda8-304f-4ffa-a9c3-1d04625dc5f5" />
+        <classShapeMoniker Id="37cb5ba2-52a2-472d-b6fd-a940a8d6399f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 12.5104484049479); (3.5 : 12.5104484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/LoaiTC/LoaiTC_TroChoi" />
+      <nodes>
+        <classShapeMoniker Id="68eb3115-b055-4bcd-b1e3-519d61cf085d" />
+        <classShapeMoniker Id="c028a5b1-df2d-4084-8a9c-db4928f090d3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 10.0615374615385); (8.56607443490112 : 9.74546302663734 : JumpStart); (8.68392556509888 : 9.62761189643958 : JumpEnd); (8.8125 : 9.49903746153846); (8.8125 : 1.25762291861979); (9 : 1.25762291861979)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/Ve/Ve_HoaDon_Ve" />
+      <nodes>
+        <classShapeMoniker Id="3f6f61d0-05b3-4e6e-b8f3-180b8f19babf" />
+        <classShapeMoniker Id="c2d73e2e-fd8a-4317-adb7-5d14dde122ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 10.3181469726563); (6.25 : 10.3181469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/LoaiVe/LoaiVe_Ve" />
+      <nodes>
+        <classShapeMoniker Id="5d0370e5-c999-4047-a9da-cf2149c5cf2b" />
+        <classShapeMoniker Id="3f6f61d0-05b3-4e6e-b8f3-180b8f19babf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 12.0537019856771); (6.25 : 12.0537019856771)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KVCDataContext/TroChoi/TroChoi_Ve" />
+      <nodes>
+        <classShapeMoniker Id="c028a5b1-df2d-4084-8a9c-db4928f090d3" />
+        <classShapeMoniker Id="3f6f61d0-05b3-4e6e-b8f3-180b8f19babf" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

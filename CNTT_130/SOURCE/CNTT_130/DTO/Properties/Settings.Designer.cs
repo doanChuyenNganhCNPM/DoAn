@@ -33,5 +33,16 @@ namespace DTO.Properties {
                 return ((string)(this["DoAnConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=BRAVO15\\SQLEXPRESS;Initial Catalog=DoAn;Integrated Security=True;Trus" +
+            "tServerCertificate=True")]
+        public string DoAnConnectionString1 {
+            get {
+                return ((string)(this["DoAnConnectionString1"]));
+            }
+        }
     }
 }

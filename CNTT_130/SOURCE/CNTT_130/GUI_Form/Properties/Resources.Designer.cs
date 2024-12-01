@@ -63,9 +63,29 @@ namespace GUI_Form.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1bangluong {
+            get {
+                object obj = ResourceManager.GetObject("1bangluong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _in {
             get {
                 object obj = ResourceManager.GetObject("in", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background_login1 {
+            get {
+                object obj = ResourceManager.GetObject("background_login1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +136,16 @@ namespace GUI_Form.Properties {
         internal static System.Drawing.Bitmap hủy {
             get {
                 object obj = ResourceManager.GetObject("hủy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lich1 {
+            get {
+                object obj = ResourceManager.GetObject("lich1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

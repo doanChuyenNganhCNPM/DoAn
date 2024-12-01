@@ -37,6 +37,8 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,14 +47,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL_DSSP.cs" />
+    <Compile Include="BLL_HoaDon.cs" />
+    <Compile Include="BLL_HoaDon_Ve.cs" />
+    <Compile Include="BLL_KhachHang.cs" />
+    <Compile Include="BLL_KhuyenMai.cs" />
+    <Compile Include="BLL_LoaiKhachHang.cs" />
+    <Compile Include="BLL_LoaiNhanVien.cs" />
+    <Compile Include="BLL_LoaiTP.cs" />
     <Compile Include="BLL_LoaiTroChoi.cs" />
+    <Compile Include="BLL_LoaiVe.cs" />
+    <Compile Include="BLL_NhaCC.cs" />
+    <Compile Include="BLL_NhanVien.cs" />
+    <Compile Include="BLL_NhapHang.cs" />
+    <Compile Include="BLL_TaiKhoan.cs" />
+    <Compile Include="BLL_ThietBi.cs" />
+    <Compile Include="BLL_ThongKe.cs" />
+    <Compile Include="BLL_ThucPham.cs" />
     <Compile Include="BLL_TroChoi.cs" />
+    <Compile Include="BLL_Ve.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="LichLamviec.cs" />
+    <Compile Include="BLL_ManHinh.cs" />
+    <Compile Include="BLL_PhanQuyen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="BLL_VaiTro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

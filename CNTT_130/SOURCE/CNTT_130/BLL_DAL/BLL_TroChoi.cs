@@ -13,27 +13,28 @@ namespace BLL_DAL
         KVCDataContext kvc = new KVCDataContext();
         public DataTable getAllData()
         {
-            DataTable dt = new DataTable();
-            var kq = from tcs in kvc.TroChois
-                     select tcs;
-            if (kq.Any())
-            {
-                var firstItem = kq.First();
-                foreach (var prop in firstItem.GetType().GetProperties())
-                {
-                    dt.Columns.Add(prop.Name, Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType);
-                }
-                foreach (var item in kq)
-                {
-                    var row = dt.NewRow();
-                    foreach (var prop in item.GetType().GetProperties())
-                    {
-                        row[prop.Name] = prop.GetValue(item, null) ?? DBNull.Value;
-                    }
-                    dt.Rows.Add(row);
-                }
-            }
-            return dt;
+            //DataTable dt = new DataTable();
+            //var kq = from tcs in kvc.TroChois
+            //         select tcs;
+            //if (kq.Any())
+            //{
+            //    var firstItem = kq.First();
+            //    foreach (var prop in firstItem.GetType().GetProperties())
+            //    {
+            //        dt.Columns.Add(prop.Name, Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType);
+            //    }
+            //    foreach (var item in kq)
+            //    {
+            //        var row = dt.NewRow();
+            //        foreach (var prop in item.GetType().GetProperties())
+            //        {
+            //            row[prop.Name] = prop.GetValue(item, null) ?? DBNull.Value;
+            //        }
+            //        dt.Rows.Add(row);
+            //    }
+            //}
+            //return dt;
+            return DataProvider.Instance.executeQuery("SELECT * FROM TroChoi");
         }
         public bool addGame(TroChoi a)
         {
@@ -50,29 +51,25 @@ namespace BLL_DAL
             }
             return kq;
         }
-        public bool updateGame(string maTC, TroChoi a)
+        public bool updateGame(string maTC, TroChoi sua)
         {
-            bool kq = false;
             try
             {
-                TroChoi m = kvc.TroChois.FirstOrDefault(t=>t.MaTC == maTC);
-                if(m != null)
-                {
-                    m.TenTC = a.TenTC;
-                    m.DiaDiem = a.DiaDiem;
-                    m.NgayBatDau = a.NgayBatDau;
-                    m.NgayKetThuc = a.NgayKetThuc;
-                    m.TinhTrang = a.TinhTrang;
-                    m.LoaiTroChoi = a.LoaiTroChoi;
-                }
-                kvc.SubmitChanges();
-                kq = true;
+                if (sua.NgayBatDau > sua.NgayKetThuc)
+                    return false;
+                string ngayBatDauFormatted = sua.NgayBatDau.HasValue ? $"'{sua.NgayBatDau.Value.ToString("yyyy-MM-dd")}'" : "NULL";
+                string ngayKetThucFormatted = sua.NgayKetThuc.HasValue ? $"'{sua.NgayKetThuc.Value.ToString("yyyy-MM-dd")}'" : "NULL";
+                string query = string.Format(
+                    "UPDATE TroChoi SET TenTC = N'{1}', DiaDiem = N'{2}', NgayBatDau = {3}, NgayKetThuc = {4}, TinhTrang = N'{5}', LoaiTroChoi = '{6}' WHERE MaTC = '{0}'",
+                    sua.MaTC, sua.TenTC, sua.DiaDiem, ngayBatDauFormatted, ngayKetThucFormatted, sua.TinhTrang, sua.LoaiTroChoi
+                );
+                int result = DataProvider.Instance.executeNonQuery(query);
+                return result > 0;
             }
-            catch
+            catch (Exception)
             {
-                kq = false;
+                return false;
             }
-            return kq;
         }
         public bool removeGame(string maTC)
         {
@@ -93,12 +90,17 @@ namespace BLL_DAL
             }
             return kq;
         }
-        public DataTable getDataByCodeType(string maLoai)
+        public DataTable getDataBySearch(string search)
         {
             DataTable dt = new DataTable();
+            string lowerSearch = search.ToLower();
             var kq = from tcs in kvc.TroChois
                      join loais in kvc.LoaiTCs on tcs.LoaiTroChoi equals loais.MaLoai
-                     where loais.MaLoai == maLoai
+                     where tcs.TenTC.ToLower().Contains(lowerSearch)
+                         || tcs.MaTC.ToLower().Contains(lowerSearch)
+                         || loais.TenLoai.ToLower().Contains(lowerSearch)
+                         || tcs.TinhTrang.ToLower().Contains(lowerSearch)
+                         || tcs.DiaDiem.ToLower().Contains(lowerSearch)
                      select tcs;
             if (kq.Any())
             {
@@ -119,13 +121,15 @@ namespace BLL_DAL
             }
             return dt;
         }
-        public DataTable getDataByNameType(string tenLoai)
+        public DataTable getCodeAndName()
         {
             DataTable dt = new DataTable();
             var kq = from tcs in kvc.TroChois
-                     join loais in kvc.LoaiTCs on tcs.LoaiTroChoi equals loais.MaLoai
-                     where loais.TenLoai == tenLoai
-                     select tcs;
+                     select new
+                     {
+                         MaTC = tcs.MaTC,
+                         TenTC = tcs.TenTC
+                     };
             if (kq.Any())
             {
                 var firstItem = kq.First();
@@ -144,6 +148,10 @@ namespace BLL_DAL
                 }
             }
             return dt;
+        }
+        public string getNameByCode(string code)
+        {
+            return kvc.TroChois.FirstOrDefault(t => t.MaTC == code) != null ? kvc.TroChois.FirstOrDefault(t => t.MaTC == code).TenTC.ToString().Trim() : "Không có";
         }
     }
 }
